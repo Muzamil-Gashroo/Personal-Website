@@ -53,7 +53,7 @@ nav ul li a:hover{
 	text-decoration: none;
 	border: 2px solid transparent;
 	font-weight: bold;
-	padding: 10px 25px;
+	padding: 10px 15px;
 	border-radius: 30px;
 	transition: transform .4s; 
 }
@@ -78,7 +78,7 @@ h3{
 }
 
 .newslatter form{
-	width: 380px;
+	width: 248px;
 	max-width: 100%;
 	position: relative;
 }
