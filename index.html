@@ -41,7 +41,7 @@
 			<div class="newslatter">
 				<form>
 					<input type="email" name="email" id="mail" placeholder="Enter Your Email">
-					<input type="submit" name="submit" value="Lets Start">
+					<input type="submit" onClick="send()" name="submit" value="Lets Start">
 				</form>
 			</div>
 		</div>
@@ -138,6 +138,13 @@
 		</div>
 		<p class="end">CopyRight By Muzamil</p>
 	</footer>
-  </div>
-</body>
+	<script>
+		function send()
+		{
+			window.location.href=`mailto:fomusaib@gmail.com`; 
+		}
+		
+     </script>
+   </div>
+ </body>
 </html>
